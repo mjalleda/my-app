@@ -1,71 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-10T07:36:51Z" name="Suite" finished-at="2021-03-10T07:36:51Z" duration-ms="54">
+  <suite started-at="2021-03-11T21:51:45Z" name="SelNG Maven POM Automation TestSuite" finished-at="2021-03-11T21:51:54Z" duration-ms="9382">
     <groups>
     </groups>
-    <test started-at="2021-03-10T07:36:51Z" name="Free CRM App Test Cases" finished-at="2021-03-10T07:36:51Z" duration-ms="54">
-      <class name="com.org.demo.First">
-        <test-method is-config="true" signature="bBeforeSuite()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="bBeforeSuite" finished-at="2021-03-10T07:36:51Z" duration-ms="17" status="PASS">
+    <test started-at="2021-03-11T21:51:45Z" name="Test" finished-at="2021-03-11T21:51:54Z" duration-ms="9382">
+      <class name="com.selng.demo.testcases.loginTest">
+        <test-method is-config="true" signature="testBESuite()[pri:0, instance:com.selng.demo.testcases.loginTest@2e1d27ba]" started-at="2021-03-11T21:51:45Z" name="testBESuite" finished-at="2021-03-11T21:51:45Z" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bBeforeSuite -->
-        <test-method is-config="true" signature="beforeTest1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="beforeTest1" finished-at="2021-03-10T07:36:51Z" duration-ms="1" status="PASS">
+        </test-method> <!-- testBESuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.selng.demo.testcases.loginTest@2e1d27ba]" started-at="2021-03-11T21:51:45Z" name="setUp" finished-at="2021-03-11T21:51:53Z" duration-ms="8375" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest1 -->
-        <test-method is-config="true" signature="beforeclass1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="beforeclass1" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:1, instance:com.selng.demo.testcases.loginTest@2e1d27ba]" started-at="2021-03-11T21:51:53Z" name="loginTest" finished-at="2021-03-11T21:51:54Z" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeclass1 -->
-        <test-method is-config="true" signature="beforemethodm1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="beforemethodm1" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="verifylogin()[pri:2, instance:com.selng.demo.testcases.loginTest@2e1d27ba]" started-at="2021-03-11T21:51:54Z" name="verifylogin" finished-at="2021-03-11T21:51:54Z" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforemethodm1 -->
-        <test-method signature="m1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="m1" finished-at="2021-03-10T07:36:51Z" duration-ms="2" status="PASS">
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="exitdriver()[pri:0, instance:com.selng.demo.testcases.loginTest@2e1d27ba]" started-at="2021-03-11T21:51:54Z" name="exitdriver" finished-at="2021-03-11T21:51:54Z" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method is-config="true" signature="aftermethodm2()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="aftermethodm2" finished-at="2021-03-10T07:36:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethodm2 -->
-        <test-method is-config="true" signature="beforemethodm1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="beforemethodm1" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethodm1 -->
-        <test-method signature="m2()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="m2" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m2 -->
-        <test-method is-config="true" signature="aftermethodm2()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="aftermethodm2" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethodm2 -->
-        <test-method is-config="true" signature="afterclass1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="afterclass1" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass1 -->
-        <test-method is-config="true" signature="AfterTest1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:51Z" name="AfterTest1" finished-at="2021-03-10T07:36:51Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest1 -->
-        <test-method is-config="true" signature="AfterSuite1()[pri:0, instance:com.org.demo.First@76a3e297]" started-at="2021-03-10T07:36:56Z" name="AfterSuite1" finished-at="2021-03-10T07:36:56Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite1 -->
-      </class> <!-- com.org.demo.First -->
-      <class name="com.org.demo.Second">
-        <test-method signature="m3()[pri:0, instance:com.org.demo.Second@4d3167f4]" started-at="2021-03-10T07:36:51Z" name="m3" finished-at="2021-03-10T07:36:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method signature="m4()[pri:0, instance:com.org.demo.Second@4d3167f4]" started-at="2021-03-10T07:36:51Z" name="m4" finished-at="2021-03-10T07:36:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m4 -->
-      </class> <!-- com.org.demo.Second -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- exitdriver -->
+      </class> <!-- com.selng.demo.testcases.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- SelNG Maven POM Automation TestSuite -->
 </testng-results>
